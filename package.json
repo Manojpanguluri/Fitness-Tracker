@@ -1,0 +1,9 @@
+{
+  "name": "fitness-tracker-vercel",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix react run dev -- --host localhost --port 5173 --strictPort",
+    "build": "npm --prefix react install && npm --prefix react run build",
+    "preview": "npm --prefix react run preview -- --host 0.0.0.0"
+  }
+}
